@@ -1,7 +1,7 @@
 --[[
 --=> تمت برمجة السورس وتطويره
 --==>> بواسطة @TAHAJ20 <<==
--- للمزيد من المعلومات قناتنا @TIGERCLI
+-- للمزيد من المعلومات قناتنا @TIGERCL
 --]]
 redis = require('redis') 
 utf8 = require ('lua-utf8') 
@@ -2079,7 +2079,7 @@ if text ==('المجموعات 📇') and is_devtaha(msg) then    local list = t
 if text == "تحديث السورس 🔱" and is_devtaha(msg) then  TIGER_sendMsg(msg.chat_id_, msg.id_, 1, '♻ • جاري تحديث السورس • ♻', 1, 'md') 
 os.execute('rm -rf TIGER.lua') 
 os.execute("rm -fr plugins_/help_rep.lua")
-os.execute('wget https://raw.githubusercontent.com/NOVAR1/TIGER/master/TIGER.lua') 
+os.execute('wget https://raw.githubusercontent.com/SERSON1/TIGER/master/TIGER.lua') 
 os.execute('cd plugins_;wget https://raw.githubusercontent.com/NOVAR1/TIGER/master/plugins_/help_rep.lua') 
 sleep(0.5) 
 TIGER_sendMsg(msg.chat_id_, msg.id_, 1, '🚸*¦* تم تحديث ♻ السورس ✔ ', 1, 'md') 
